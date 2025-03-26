@@ -1,12 +1,101 @@
-# React + Vite
+# Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Overview
+A modern, animated portfolio website built with React Vite featuring:
 
-Currently, two official plugins are available:
+- ✨ Stunning animations with Framer Motion
+- 🎨 Beautiful styling with Styled Components
+- 📱 Fully responsive design
+- 🚀 Professional sections to showcase your work
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+✅ **Smooth Animations** – All elements animate beautifully on scroll and hover  
+✅ **Modern Design** – Clean, professional look with glass morphism effects  
+✅ **Responsive Layout** – Works perfectly on all device sizes  
+✅ **Interactive Elements** – Buttons and links with hover effects  
+✅ **Easy Customization** – Simple to update with your own content  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- ⚛️ **React**
+- 🚀 **Vite** (for super-fast development)
+- 💅 **Styled Components** (for CSS)
+- 🎬 **Framer Motion** (for animations)
+- 📦 **React Icons** (for beautiful icons)
+
+## 📂 Project Structure
+```
+src/
+├── components/
+│   ├── Header.jsx       # Navigation header
+│   ├── Hero.jsx        # Introduction section
+│   ├── Projects.jsx    # Projects showcase
+│   ├── Skills.jsx      # Skills display
+│   ├── Contact.jsx     # Contact form
+│   └── Footer.jsx      # Page footer
+├── styles/
+│   └── GlobalStyle.js  # Global CSS styles
+├── App.jsx             # Main app component
+└── main.jsx            # Entry point
+```
+
+## 🛠️ Installation
+
+1️⃣ Clone the repository:
+```sh
+git clone https://github.com/Shailly-450/Shailly-450.github.io.git
+```
+2️⃣ Navigate to the project directory:
+```sh
+cd your-portfolio
+```
+3️⃣ Install dependencies:
+```sh
+npm install
+```
+4️⃣ Start the development server:
+```sh
+npm run dev
+```
+
+## 🚀 Deployment
+
+1️⃣ Build the project:
+```sh
+npm run build
+```
+2️⃣ Deploy to GitHub Pages:
+```sh
+npm run deploy
+```
+
+## 🎨 Customization Guide
+
+### 🔹 Personal Information
+- Update name, email, location in `Contact.jsx`
+- Change social media links in `Header.jsx` and `Footer.jsx`
+
+### 🔹 Projects
+- Edit the projects array in `Projects.jsx`
+- Add your own project details, images, and links
+
+### 🔹 Skills
+- Update the skills categories in `Skills.jsx`
+- Add/remove skills as needed
+
+### 🔹 Styling
+- Change colors in `GlobalStyle.js`
+- Adjust animations in component files
+
+## 📝 License
+
+This project is open source and available under the **MIT License**.
+
+## 🙏 Acknowledgments
+
+- Inspired by modern portfolio designs
+- Uses amazing open-source libraries
+- Special thanks to the React community
+
+**Made with ❤️ by Shailly - Feel free to customize and make it your own!**
