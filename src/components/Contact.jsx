@@ -170,7 +170,7 @@ export default function Contact() {
             </ContactIcon>
             <ContactText>
               <h3>Email</h3>
-              <a href="mailto:shaillyyadav979@gmail.com">your.email@example.com</a>
+              <a href="mailto:shaillyyadav979@gmail.com">shaillyyadav979@gmail.com</a>
             </ContactText>
           </ContactItem>
 
