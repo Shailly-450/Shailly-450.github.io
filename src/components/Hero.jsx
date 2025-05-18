@@ -98,7 +98,7 @@ export default function Hero() {
           I have experience working with AI research, NLP, computer vision, and cloud-based deployments.
         </HeroText>
         <HeroButton
-          href="Matty_s_Resume-9.pdf"
+          href="Matty_s_Resume-25.pdf"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.8 }}

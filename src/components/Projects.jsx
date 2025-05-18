@@ -99,6 +99,22 @@ const ProjectLink = styled(motion.a)`
 
 const projects = [
   {
+    title: 'Chicken Disease Classification',
+    description:
+      'Deep learning and image processing pipeline to classify chicken diseases from images. Features model training, Docker-based deployment, and a React frontend for image uploads and predictions. Includes a demo video walkthrough.',
+    tech: [
+      'TensorFlow',
+      'OpenCV',
+      'Flask',
+      'Docker',
+      'React',
+      'Python',
+      'Node.js'
+    ],
+    github: 'https://github.com/your-username/chicken-disease-classification',
+    live: 'https://drive.google.com/file/d/1-gFX4ktcMwhKXjTf7IiejRiU4ob3thY9/view?usp=sharing'
+  },
+  {
     title: 'Text Summarization Web App',
     description:
       'An NLP tool that generates concise versions of longer texts while preserving key information.',
@@ -112,7 +128,7 @@ const projects = [
       'A YOLOS-based object detection web app with interactive image uploads and visualization.',
     tech: ['Computer Vision', 'YOLOS', 'Transformers', 'PyTorch', 'Gradio'],
     github: 'https://huggingface.co/spaces/Shailly29/BCCD_Object_Detection',
-    live: '#',
+    live: 'https://huggingface.co/spaces/Shailly29/BCCD_Object_Detection',
   },
   {
     title: 'Smart ATS: Resume Evaluation Tool',
@@ -121,6 +137,70 @@ const projects = [
     tech: ['Streamlit', 'Google Generative AI', 'Data Visualization'],
     github: 'https://github.com/Shailly-450/Smart-ATS',
     live: '#',
+  },
+    {
+    title: 'SHL Assessment Recommendation System',
+    description:
+      'A smart system that recommends SHL assessments based on natural language job descriptions. Uses Google Gemini API for query understanding, Streamlit for UI, and FastAPI for API access. Features web scraping, intelligent ranking, and dual deployment.',
+    tech: [
+      'Python',
+      'Streamlit',
+      'FastAPI',
+      'Gemini API',
+      'Web Scraping',
+      'REST API'
+    ],
+    github: 'https://github.com/Shailly-450/SHL-assessment',
+    live: 'https://assessment-recommender.streamlit.app',
+  },
+  {
+    title: 'FAQ Chatbot',
+    description:
+      'A Flask-based FAQ chatbot using NLP techniques (tokenization, lemmatization, TF-IDF, cosine similarity) for intelligent question answering. Features a dynamic web UI, REST API, and is deployed on Render.',
+    tech: [
+      'Python',
+      'Flask',
+      'NLP',
+      'TF-IDF',
+      'Cosine Similarity',
+      'HTML/CSS',
+      'Render'
+    ],
+    github: 'https://github.com/Shailly-450/Chatbot',
+    live: 'https://chatbot-mwee.onrender.com/',
+  },
+  {
+    title: 'Movie Recommendation System',
+    description:
+      'A web-based application that provides movie recommendations and sentiment analysis of reviews using Machine Learning. Features collaborative and content-based filtering, sentiment analysis, and an interactive UI.',
+    tech: [
+      'Python',
+      'Flask',
+      'Machine Learning',
+      'Collaborative Filtering',
+      'Content-Based Filtering',
+      'Sentiment Analysis',
+      'HTML/CSS',
+      'JavaScript'
+    ],
+    github: 'https://github.com/Shailly-450/Movie-Recommendation',
+    live: '#',
+  },
+  {
+    title: 'News Wave',
+    description:
+      'A cross-platform Flutter news app providing up-to-date news from various sources. Features real-time updates, offline reading, personalized feeds, and a user-friendly interface. Tested on Android, iOS, macOS, and Chrome.',
+    tech: [
+      'Flutter',
+      'Dart',
+      'REST API',
+      'Android',
+      'iOS',
+      'macOS',
+      'Web'
+    ],
+    github: 'https://github.com/Shailly-450/NewsWave', // Add your GitHub repo link if available
+    live: '#',   // Add a demo or store link if available
   },
 ]
 
